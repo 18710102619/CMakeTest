@@ -31,11 +31,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CMake.app/Contents/share/cmake-3.19/Modules/Platform/Darwin.cmake"
   "/Applications/CMake.app/Contents/share/cmake-3.19/Modules/Platform/UnixPaths.cmake"
   "../CMakeLists.txt"
+  "../Project1/CMakeLists.txt"
+  "../Project2/CMakeLists.txt"
   "CMakeFiles/3.19.0-rc1/CMakeCCompiler.cmake"
   "CMakeFiles/3.19.0-rc1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.19.0-rc1/CMakeSystem.cmake"
-  "../libhello/CMakeLists.txt"
-  "../src/CMakeLists.txt"
+  "../libGWall/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -48,11 +49,13 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "bin/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "bin/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lib/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "bin/CMakeFiles/gwall.dir/DependInfo.cmake"
-  "lib/CMakeFiles/libhello.dir/DependInfo.cmake"
+  "bin/CMakeFiles/Project1.dir/DependInfo.cmake"
+  "bin/CMakeFiles/Project2.dir/DependInfo.cmake"
+  "lib/CMakeFiles/libGWall.dir/DependInfo.cmake"
   )

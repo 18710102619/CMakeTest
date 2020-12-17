@@ -1,4 +1,4 @@
-# Install script for directory: /Users/zhanglingyu/Desktop/GreatWall/src
+# Install script for directory: /Users/zhanglingyu/Desktop/GreatWall/Project2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

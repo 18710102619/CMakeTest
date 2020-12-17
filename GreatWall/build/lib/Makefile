@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = /Users/zhanglingyu/Desktop/GreatWall/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target package
-package: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /Users/zhanglingyu/Desktop/GreatWall/build && /Applications/CMake.app/Contents/bin/cpack --config ./CPackConfig.cmake
-.PHONY : package
-
-# Special rule for the target package
-package/fast: package
-
-.PHONY : package/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -118,6 +107,17 @@ package_source:
 package_source/fast: package_source
 
 .PHONY : package_source/fast
+
+# Special rule for the target package
+package: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
+	cd /Users/zhanglingyu/Desktop/GreatWall/build && /Applications/CMake.app/Contents/bin/cpack --config ./CPackConfig.cmake
+.PHONY : package
+
+# Special rule for the target package
+package/fast: package
+
+.PHONY : package/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -152,33 +152,33 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-lib/CMakeFiles/libhello.dir/rule:
-	cd /Users/zhanglingyu/Desktop/GreatWall/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/libhello.dir/rule
-.PHONY : lib/CMakeFiles/libhello.dir/rule
+lib/CMakeFiles/libGWall.dir/rule:
+	cd /Users/zhanglingyu/Desktop/GreatWall/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/libGWall.dir/rule
+.PHONY : lib/CMakeFiles/libGWall.dir/rule
 
 # Convenience name for target.
-libhello: lib/CMakeFiles/libhello.dir/rule
+libGWall: lib/CMakeFiles/libGWall.dir/rule
 
-.PHONY : libhello
+.PHONY : libGWall
 
 # fast build rule for target.
-libhello/fast:
-	cd /Users/zhanglingyu/Desktop/GreatWall/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/libhello.dir/build.make lib/CMakeFiles/libhello.dir/build
-.PHONY : libhello/fast
+libGWall/fast:
+	cd /Users/zhanglingyu/Desktop/GreatWall/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/libGWall.dir/build.make lib/CMakeFiles/libGWall.dir/build
+.PHONY : libGWall/fast
 
 # target to build an object file
 hello.o:
-	cd /Users/zhanglingyu/Desktop/GreatWall/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/libhello.dir/build.make lib/CMakeFiles/libhello.dir/hello.o
+	cd /Users/zhanglingyu/Desktop/GreatWall/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/libGWall.dir/build.make lib/CMakeFiles/libGWall.dir/hello.o
 .PHONY : hello.o
 
 # target to preprocess a source file
 hello.i:
-	cd /Users/zhanglingyu/Desktop/GreatWall/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/libhello.dir/build.make lib/CMakeFiles/libhello.dir/hello.i
+	cd /Users/zhanglingyu/Desktop/GreatWall/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/libGWall.dir/build.make lib/CMakeFiles/libGWall.dir/hello.i
 .PHONY : hello.i
 
 # target to generate assembly for a file
 hello.s:
-	cd /Users/zhanglingyu/Desktop/GreatWall/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/libhello.dir/build.make lib/CMakeFiles/libhello.dir/hello.s
+	cd /Users/zhanglingyu/Desktop/GreatWall/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/libGWall.dir/build.make lib/CMakeFiles/libGWall.dir/hello.s
 .PHONY : hello.s
 
 # Help Target
@@ -191,7 +191,7 @@ help:
 	@echo "... package"
 	@echo "... package_source"
 	@echo "... rebuild_cache"
-	@echo "... libhello"
+	@echo "... libGWall"
 	@echo "... hello.o"
 	@echo "... hello.i"
 	@echo "... hello.s"

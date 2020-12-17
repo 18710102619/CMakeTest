@@ -152,30 +152,43 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named gwall
+# Target rules for targets named Project1
 
 # Build rule for target.
-gwall: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gwall
-.PHONY : gwall
+Project1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Project1
+.PHONY : Project1
 
 # fast build rule for target.
-gwall/fast:
-	$(MAKE) $(MAKESILENT) -f bin/CMakeFiles/gwall.dir/build.make bin/CMakeFiles/gwall.dir/build
-.PHONY : gwall/fast
+Project1/fast:
+	$(MAKE) $(MAKESILENT) -f bin/CMakeFiles/Project1.dir/build.make bin/CMakeFiles/Project1.dir/build
+.PHONY : Project1/fast
 
 #=============================================================================
-# Target rules for targets named libhello
+# Target rules for targets named Project2
 
 # Build rule for target.
-libhello: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libhello
-.PHONY : libhello
+Project2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Project2
+.PHONY : Project2
 
 # fast build rule for target.
-libhello/fast:
-	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/libhello.dir/build.make lib/CMakeFiles/libhello.dir/build
-.PHONY : libhello/fast
+Project2/fast:
+	$(MAKE) $(MAKESILENT) -f bin/CMakeFiles/Project2.dir/build.make bin/CMakeFiles/Project2.dir/build
+.PHONY : Project2/fast
+
+#=============================================================================
+# Target rules for targets named libGWall
+
+# Build rule for target.
+libGWall: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libGWall
+.PHONY : libGWall
+
+# fast build rule for target.
+libGWall/fast:
+	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/libGWall.dir/build.make lib/CMakeFiles/libGWall.dir/build
+.PHONY : libGWall/fast
 
 # Help Target
 help:
@@ -187,8 +200,9 @@ help:
 	@echo "... package"
 	@echo "... package_source"
 	@echo "... rebuild_cache"
-	@echo "... gwall"
-	@echo "... libhello"
+	@echo "... Project1"
+	@echo "... Project2"
+	@echo "... libGWall"
 .PHONY : help
 
 

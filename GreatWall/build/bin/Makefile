@@ -152,33 +152,33 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-bin/CMakeFiles/gwall.dir/rule:
-	cd /Users/zhanglingyu/Desktop/GreatWall/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/CMakeFiles/gwall.dir/rule
-.PHONY : bin/CMakeFiles/gwall.dir/rule
+bin/CMakeFiles/Project2.dir/rule:
+	cd /Users/zhanglingyu/Desktop/GreatWall/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/CMakeFiles/Project2.dir/rule
+.PHONY : bin/CMakeFiles/Project2.dir/rule
 
 # Convenience name for target.
-gwall: bin/CMakeFiles/gwall.dir/rule
+Project2: bin/CMakeFiles/Project2.dir/rule
 
-.PHONY : gwall
+.PHONY : Project2
 
 # fast build rule for target.
-gwall/fast:
-	cd /Users/zhanglingyu/Desktop/GreatWall/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/gwall.dir/build.make bin/CMakeFiles/gwall.dir/build
-.PHONY : gwall/fast
+Project2/fast:
+	cd /Users/zhanglingyu/Desktop/GreatWall/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/Project2.dir/build.make bin/CMakeFiles/Project2.dir/build
+.PHONY : Project2/fast
 
 # target to build an object file
 main.o:
-	cd /Users/zhanglingyu/Desktop/GreatWall/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/gwall.dir/build.make bin/CMakeFiles/gwall.dir/main.o
+	cd /Users/zhanglingyu/Desktop/GreatWall/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/Project2.dir/build.make bin/CMakeFiles/Project2.dir/main.o
 .PHONY : main.o
 
 # target to preprocess a source file
 main.i:
-	cd /Users/zhanglingyu/Desktop/GreatWall/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/gwall.dir/build.make bin/CMakeFiles/gwall.dir/main.i
+	cd /Users/zhanglingyu/Desktop/GreatWall/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/Project2.dir/build.make bin/CMakeFiles/Project2.dir/main.i
 .PHONY : main.i
 
 # target to generate assembly for a file
 main.s:
-	cd /Users/zhanglingyu/Desktop/GreatWall/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/gwall.dir/build.make bin/CMakeFiles/gwall.dir/main.s
+	cd /Users/zhanglingyu/Desktop/GreatWall/build && $(MAKE) $(MAKESILENT) -f bin/CMakeFiles/Project2.dir/build.make bin/CMakeFiles/Project2.dir/main.s
 .PHONY : main.s
 
 # Help Target
@@ -191,7 +191,7 @@ help:
 	@echo "... package"
 	@echo "... package_source"
 	@echo "... rebuild_cache"
-	@echo "... gwall"
+	@echo "... Project2"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/zhanglingyu/Desktop/GreatWall/libhello
+# Install script for directory: /Users/zhanglingyu/Desktop/GreatWall/libGWall
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

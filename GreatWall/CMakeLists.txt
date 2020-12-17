@@ -98,9 +98,10 @@
 #----------------------------------------------------------
 
 # 5让可执行文件在 bin 目录，库文件在 lib 目录
-project(HELLO)
-add_subdirectory(src bin)
-add_subdirectory(libhello lib)
+project(GWall)
+add_subdirectory(Project1 bin)
+add_subdirectory(Project2 bin)
+add_subdirectory(libGWall lib)
 
 # + build/
 #    |
