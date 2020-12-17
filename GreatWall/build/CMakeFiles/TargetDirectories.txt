@@ -1,0 +1,14 @@
+/Users/zhanglingyu/Desktop/GreatWall/build/CMakeFiles/rebuild_cache.dir
+/Users/zhanglingyu/Desktop/GreatWall/build/CMakeFiles/edit_cache.dir
+/Users/zhanglingyu/Desktop/GreatWall/build/CMakeFiles/package_source.dir
+/Users/zhanglingyu/Desktop/GreatWall/build/CMakeFiles/package.dir
+/Users/zhanglingyu/Desktop/GreatWall/build/bin/CMakeFiles/package.dir
+/Users/zhanglingyu/Desktop/GreatWall/build/bin/CMakeFiles/rebuild_cache.dir
+/Users/zhanglingyu/Desktop/GreatWall/build/bin/CMakeFiles/edit_cache.dir
+/Users/zhanglingyu/Desktop/GreatWall/build/bin/CMakeFiles/package_source.dir
+/Users/zhanglingyu/Desktop/GreatWall/build/bin/CMakeFiles/gwall.dir
+/Users/zhanglingyu/Desktop/GreatWall/build/lib/CMakeFiles/package.dir
+/Users/zhanglingyu/Desktop/GreatWall/build/lib/CMakeFiles/rebuild_cache.dir
+/Users/zhanglingyu/Desktop/GreatWall/build/lib/CMakeFiles/edit_cache.dir
+/Users/zhanglingyu/Desktop/GreatWall/build/lib/CMakeFiles/package_source.dir
+/Users/zhanglingyu/Desktop/GreatWall/build/lib/CMakeFiles/libhello.dir
